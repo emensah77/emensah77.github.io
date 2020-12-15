@@ -45,3 +45,17 @@
 
 }
 
+/* Home section styling */
+.home{
+    display: flex;
+    background: url("images/ebenezer.jpeg") no-repeat center;
+    height: 100vh;
+    color: #ffffff;
+    min-height: 500px;
+    font-family: sans-serif;
+
+
+
+}
+
+
