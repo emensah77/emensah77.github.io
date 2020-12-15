@@ -11,3 +11,35 @@
     background: linear-gradient(to right, yellow, #8ecdff);
 
 }
+
+nav{
+    width: 80px;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+
+}
+.icon{
+    flex-basis: 20%;
+
+}
+.icon img{
+    width:150px;
+
+}
+.links{
+    flex: 1;
+    text-align:right;
+
+}
+.links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.links ul li a{
+    color: #fff;
+    text-decoration: none;
+}
