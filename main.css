@@ -20,6 +20,11 @@
     font-size: 35px;
     font-weight: 600;
 }
+.navbar menu li{
+    list-style: none;
+    display: inline-block;
+    
+}
 .navbar .menu li a{
     color:darkblue;
 
@@ -36,8 +41,4 @@
     justify-content: space-between;
 
 }
-.navbar menu li{
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-}
+
