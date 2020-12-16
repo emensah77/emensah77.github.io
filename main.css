@@ -14,7 +14,13 @@
     padding: 15px 0;
     background: yellow;
     font-family: sans-serif;
+    transition: all 0.3s ease;
     
+
+}
+.navbar .sticky{
+    padding: 15px 0;
+    background: crimson;
 
 }
 .navbar .logo a {
@@ -22,7 +28,7 @@
     font-size: 35px;
     font-weight: 600;
 }
-.navbar menu li{
+.navbar .menu li{
     list-style: none;
     display: inline-block;
     margin: 0 20px;
@@ -32,7 +38,11 @@
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
+    transition: color 0.3s ease;
 
+}
+.navbar .menu li a:hover{
+    color:darkgreen;
 }
 
 .max-width{
@@ -52,9 +62,11 @@
     display: flex;
     background: url("images/banner.png") no-repeat center;
     height: 100vh;
-    color: #ffffff;
+    color: #fff;
     min-height: 500px;
-    font-family: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
 
 
 
@@ -67,15 +79,18 @@
     font-size: 27px;
 
 }
-home .home-content .text-2{
-    font-size: 75px;
+.home .home-content .text-2{
+    font-size: 35px;
     font-weight: 600;
     margin-left: -3px;
 
 }
-home .home-content .text-3{
-    font-size: 40px;
+.home .home-content .text-3{
+    font-size: 20px;
     margin: 5px 0;
 }
 
-
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
