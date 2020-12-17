@@ -99,7 +99,7 @@
 }
 
 .home .home-content .text-3 span{
-    color: crimson;
+    color: yellow;
     font-weight: 500;
 }
 
@@ -113,6 +113,10 @@
     .menu-btn{
         display: block;
         z-index: 999;
+    }
+    .menu-btn i.active:before{
+        content: "\f00d";
+
     }
     .navbar .menu{
         position: fixed;
@@ -136,5 +140,16 @@
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
+    }
+
+    .home .home-content .text-2{
+        font-size: 35px;
+        font-weight: 600;
+        margin-left: -3px;
+    
+    }
+    .home .home-content .text-3{
+        font-size: 35px;
+        
     }
 }
