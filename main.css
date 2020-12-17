@@ -70,7 +70,7 @@
     display: flex;
     background: url("images/banner.png") no-repeat center;
     height: 100vh;
-    color: #fff;
+    color:darkblue;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
     background-size: cover;
