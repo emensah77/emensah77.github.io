@@ -175,6 +175,7 @@ section{
 
 
 .about .about-content .left{
+    width: 45%;
 
 }
 
@@ -189,6 +190,44 @@ section{
 }
 
 
+.about .about-content .right{
+    width: 55%;
+
+}
+
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+.about .about-content .right .text span{
+    color: darkblue;
+}
+
+.about .about-content .right p{
+    text-align: justify;
+}
+.about .about-content .right a{
+    
+        display: inline-block;
+        background:yellow;
+        color: darkblue;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 5px 15px;
+        margin-top: 15px;
+        border-radius: 15px;
+        border: 2px solid yellow;
+        transition: all 0.3s ease;
+    
+}
+
+.about .about-content .right a:hover{
+    color: yellow;
+    background: darkblue;
+}
 
 
 
@@ -203,13 +242,19 @@ section{
 
 
 /* responsive media query start */
-@media (max-width: 1104px){
+@media (max-width: 1300px){
     .home .max-width{
         margin-left: 0px;
 
     }
+}
+@media (max-width: 1300px){
+    .about .about-content .left img{
+
+        height: 350px;
+        width: 350px;
         
-        
+    }
     
     }
 @media (max-width: 991px){
@@ -268,7 +313,30 @@ section{
         padding: 10px 30px;
     }
 
+    .max-width{
+        max-width: 800px;
+    }
 
+    .about .about-content .column{
+        width: 50%;
+
+
+    }
+
+    .about .about-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+
+
+    }
+    .about .about-content .right{
+        flex: 100%;
+
+
+    }
+
+    
 
 }
 @media (max-width: 690px){
