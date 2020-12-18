@@ -15,6 +15,7 @@
     background: yellow;
     font-family: "Ubuntu", sans-serif;
     transition: all 0.3s ease;
+    z-index: 999;
     
 
 }
@@ -165,7 +166,17 @@ section{
 
 }
 
+.about .about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
 
+
+.about .about-content .left{
+
+}
 
 
 .about .about-content .left img{
@@ -173,6 +184,7 @@ section{
     height: 400px;
     width: 400px;
     object-fit: cover;
+    border-radius: 200px;
 
 }
 
