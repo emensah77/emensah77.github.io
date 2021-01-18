@@ -252,13 +252,50 @@ section .title::after{
 
 /* Projects styling section */
 .projects{
-    color: blue;
-    
+    color: white;
+
     
 }
 .projects .title::after{
     content: "Projects completed";
 
+}
+.projects .proj-content .card{
+    width: calc(33% - 20px);
+    text-align: center;
+    border-radius: 12px;
+    padding: 20px 25px;
+    cursor: pointer;
+    background: darkblue;
+    transition: all 0.3s ease;
+}
+.projects .proj-content .card:hover{
+    background: yellow;
+    color: darkblue;
+   
+}
+.projects .proj-content .card .box{
+    transition: all 0.3s ease;
+
+}
+.projects .proj-content .card:hover .box{
+    transform: scale(1.05);
+}
+
+.projects .proj-content .card i{
+    font-size: 20px;
+    color: yellow;
+    transition: color 0.3s ease;
+}
+
+.projects .proj-content .card:hover i{
+    color: blue;
+
+}
+.projects .proj-content .card .text{
+    font-size: 20px;
+    font-weight: 500;
+    margin:10px 0 7px 0;
 }
 
 
@@ -396,6 +433,11 @@ section .title::after{
 
     }
 
+    .projects .proj-content .card{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+
     
 
 }
@@ -418,6 +460,9 @@ section .title::after{
     .home .home-content a{
         font-size: 20px;
         
+    }
+    .projects .proj-content .card{
+        width: 100%;
     }
     
 
