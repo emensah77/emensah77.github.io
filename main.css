@@ -126,8 +126,18 @@
 section{
     padding: 100px 0px;
 }
+.about, .projects, .skills{
+    font-family: 'Ubuntu', sans-serif;
 
-section .title{
+}
+.about .about-content, .projects .proj-content, .skills .skills-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section .title{
     position: relative;
     text-align: center;
     font-size: 40px;
@@ -137,7 +147,7 @@ section .title{
     font-family: 'Ubuntu', sans-serif;
 }
 
-section .title::before{
+.section .title::before{
     content: "";
     position: absolute;
     width: 180px;
@@ -175,21 +185,13 @@ section .title::after{
 
 /*about section styling*/
 
-.about, .projects{
-    font-family: 'Ubuntu', sans-serif;
 
-}
 
 .about .title::after{
     content: "Who I am";
 }
 
-.about .about-content, .projects .proj-content{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
+
 
 
 .about .about-content .left{
@@ -303,7 +305,11 @@ section .title::after{
 
 
 
+/* Skills section styling*/
 
+.skills .skills-content .column{
+    width: calc(50% - 30px);
+}
 
 
 
