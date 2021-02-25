@@ -159,7 +159,7 @@ section{
 
 }
 
-section .title::after{
+.section .title::after{
     
     position: absolute;
     font-size: 20px;
