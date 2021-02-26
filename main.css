@@ -338,7 +338,8 @@ section .title::after{
 .skills .skills-content .right .line{
     height: 5px;
     width: 100%;
-    background: blue;
+    background: lightgrey;
+    position: relative;
 }
 .skills .skills-content .right .line::before{
     content: "";
@@ -347,6 +348,7 @@ section .title::after{
     width: 80%;
     left: 0;
     top: 0;
+    background: blue;
     
     
     
@@ -354,7 +356,7 @@ section .title::after{
 }
 
 .skills-content .right .html::before{
-    width: 80%;
+    width: 50%;
 }
 
 .skills-content .right .java::before{
