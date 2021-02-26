@@ -350,14 +350,14 @@ section{
 }
 
 .skills-content .right .html::before{
-    width: 90%;
+    width: 80%;
 }
 
 .skills-content .right .java::before{
-    width: 90%;
+    width: 50%;
 }
 .skills-content .right .python::before{
-    width: 90%;
+    width: 70%;
 }
 
 
