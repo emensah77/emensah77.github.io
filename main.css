@@ -339,8 +339,26 @@ section{
     width: 100%;
     background: blue;
 }
+.skills .skills-content .right .line::before{
+    content: " ";
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    left: 0;
+    top: 0;
+    background: blue;
+}
 
+.skills-content .right .html::before{
+    width: 90%;
+}
 
+.skills-content .right .java::before{
+    width: 90%;
+}
+.skills-content .right .python::before{
+    width: 90%;
+}
 
 
 
